@@ -1,5 +1,6 @@
 import flatpickr from 'flatpickr';
 import 'flatpickr/dist/flatpickr.min.css';
+import Notiflix from 'notiflix';
 const timerEl = document.querySelector('.timer');
 const fieldElList = document.querySelectorAll('.field');
 const startBtn = document.querySelector('[data-start]');
